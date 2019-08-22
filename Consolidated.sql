@@ -1,14 +1,14 @@
--- Create Consolidated Table
-DROP TABLE consolidated
-CREATE TABLE consolidated (
-  id INT PRIMARY KEY,
-  ano INT,
-  mes TEXT,
-  estado TEXT,
-  cliente TEXT, 
-  modalidad TEXT,
-  acciones INT,
-  monto INT
-);
+SELECT * FROM consolidated;
 
-SELECT * FROM consolidated
+DROP TABLE consolidated;
+
+CREATE TABLE consolidated (
+  id INTEGER,
+  ano INTEGER,
+  mes VARCHAR,
+  estado VARCHAR,
+  cliente VARCHAR, 
+  modalidad VARCHAR,
+  acciones FLOAT,
+  monto FLOAT
+);
