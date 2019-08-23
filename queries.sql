@@ -59,3 +59,15 @@ FROM estados_agrupados e
 LEFT JOIN desastres_por_estado d
 ON e.estado = d.estado
 ORDER BY total_acciones DESC;
+
+CREATE TABLE inflation (
+  id INTEGER,
+  año INTEGER,
+  mes VARCHAR,
+  estado VARCHAR,
+  cliente VARCHAR, 
+  modalidad VARCHAR,
+  inflation FLOAT
+);
+
+SELECT * FROM inflation;
