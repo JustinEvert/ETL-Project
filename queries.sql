@@ -58,4 +58,4 @@ SELECT e.estado, e.total_acciones, e.total_monto, d.total_desastres
 FROM estados_agrupados e
 LEFT JOIN desastres_por_estado d
 ON e.estado = d.estado
-ORDER BY total_desastres;
+ORDER BY total_acciones DESC;
