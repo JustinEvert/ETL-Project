@@ -1,11 +1,15 @@
 # ETL-Project
 
 EXTRACT:
+
 (i) 8 Excel Files showing the number and amount of mortgages provided by all banks. Data EXTRACTED from Genmore (actual workplace data)
+
 (ii) Data for Natural Disaster Events by state. Data EXTRACTED from the Datos Abiertos del Gobierno Federal FONDEN API
+
 (iii) Data for monthly National level Inflation Rates for Mexico (2016 - present). Data EXTRACTED from INEGI in HTML format
 
 TRANSFORM:
+
 (i) Pandas used to:
 - CONSOLIDATE 8 files into 1 Dataset 
 - TRANSFORM consolidated data into Dataframe
