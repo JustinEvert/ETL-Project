@@ -2,7 +2,7 @@
 
 EXTRACT:
 
-(i) 8 Excel Files showing the number and amount of mortgages provided by all banks. Data EXTRACTED from Genmore (actual workplace data)
+(i) 8 Excel Files showing the number and amount of mortgages provided by all banks. Data EXTRACTED from CONAVI (Comisión Nacional de Vivienda)
 
 (ii) Data for Natural Disaster Events by state. Data EXTRACTED from the Datos Abiertos del Gobierno Federal FONDEN API
 
