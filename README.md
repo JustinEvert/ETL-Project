@@ -32,6 +32,6 @@ TRANSFORM:
 LOAD:
 - TABLES were created in Postgres to receive all datasets once transformation process completed
 - Once dataset transformation completed all data was exported and LOADED to PostGres meaning all created tables were populated with the datasets which correlated to them
-- JOINS were then used to CONSOLIDATE the 3 seperate datasets into one datestes which included the addition of targetted information
+- JOINS were then used to CONSOLIDATE the 3 seperate datasets into one dataset which included the addition of targetted information
 - All LOADED data saved to SQL format
 
