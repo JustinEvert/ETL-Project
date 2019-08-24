@@ -56,9 +56,11 @@ SELECT * FROM desastres_por_estado;
 
 SELECT e.estado, e.total_acciones, e.total_monto, d.total_desastres
 FROM estados_agrupados e
-LEFT JOIN desastres_por_estado d
+JOIN desastres_por_estado d
 ON e.estado = d.estado
 ORDER BY total_acciones DESC;
+
+DROP TABLE inflation;
 
 CREATE TABLE inflation (
   id INTEGER,
@@ -67,7 +69,7 @@ CREATE TABLE inflation (
   estado VARCHAR,
   cliente VARCHAR, 
   modalidad VARCHAR,
-  inflation FLOAT
+  inflacion FLOAT
 );
 
 SELECT * FROM inflation;
